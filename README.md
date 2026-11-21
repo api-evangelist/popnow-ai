@@ -1,4 +1,4 @@
-# popnow-ai
+# PopNow AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,150 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-popnow-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://popnow.ai/
+PopNow AI is a browser‑based AI creative studio that lets users generate images, videos, audio, and music using over 210 AI models. Users pay per run with credit packs that never expire and there is no subscription fee. The platform offers tools for ads, films, games, comics, and other content, providing price protection and refunds for failed or off‑spec runs.
+
+**Areas:** Pay‑as‑you‑go · Creative Studio
+
+## PopNow AI on APIs.io
+
+Everything profiled for PopNow AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/popnow-ai/](https://apis.io/providers/popnow-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [PopNow AI Account API](https://apis.io/apis/popnow-ai/popnow-ai-account-api/) — The Account API from PopNow AI — 2 operation(s) for account.
+- [PopNow AI Agent Skills API](https://apis.io/apis/popnow-ai/popnow-ai-agent-skills-api/) — Installable skill presets for AI coding agents (Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, Windsurf and more than 20 others): list and search…
+- [PopNow AI Assets API](https://apis.io/apis/popnow-ai/popnow-ai-assets-api/) — Long-term private asset library. Saved files are kept until you delete them and are referenced as popnow://a/<id> in generation requests made with keys of…
+- [PopNow AI Media API](https://apis.io/apis/popnow-ai/popnow-ai-media-api/) — The Media API from PopNow AI — 4 operation(s) for media.
+- [PopNow AI Models API](https://apis.io/apis/popnow-ai/popnow-ai-models-api/) — The Models API from PopNow AI — 2 operation(s) for models.
+- [PopNow AI OpenAI Compatible API](https://apis.io/apis/popnow-ai/popnow-ai-openai-compatible-api/) — Chat models through the standard protocols (OpenAI Chat Completions and Responses, Anthropic Messages, Gemini generateContent), the OpenAI Videos protocol…
+- [PopNow AI Recipes API](https://apis.io/apis/popnow-ai/popnow-ai-recipes-api/) — Your saved recipes and workflows from popnow.ai (and the ones your team shares with you), runnable with one call; and your Poppie skills, readable as…
+- [PopNow AI Tasks API](https://apis.io/apis/popnow-ai/popnow-ai-tasks-api/) — The Tasks API from PopNow AI — 6 operation(s) for tasks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Popnow Ai Webhooks](https://apis.io/asyncapis/popnow-ai/popnow-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [PopNow AI Agentic Access](https://apis.io/agentic-access/popnow-ai/popnow-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentSkill](https://apis.io/schemas/popnow-ai/popnow-ai-agent-skill/)
+- [AgentSkillDetail](https://apis.io/schemas/popnow-ai/popnow-ai-agent-skill-detail/)
+- [ChatCompletionRequest](https://apis.io/schemas/popnow-ai/popnow-ai-chat-completion-request/)
+- [CreateTaskRequest](https://apis.io/schemas/popnow-ai/popnow-ai-create-task-request/)
+- [OpenAIModelList](https://apis.io/schemas/popnow-ai/popnow-ai-open-aimodel-list/)
+- [SavedUSDRun](https://apis.io/schemas/popnow-ai/popnow-ai-saved-usdrun/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Popnow Ai Context](https://apis.io/jsonld/popnow-ai/popnow-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PopNow AI API Rules](https://apis.io/rules/popnow-ai/popnow-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PopNow AI Authentication](https://apis.io/security/popnow-ai/popnow-ai-authentication/)
+- [PopNow AI Domain Security](https://apis.io/security/popnow-ai/popnow-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [PopNow AI Plans Pricing](https://apis.io/plans/popnow-ai/popnow-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [PopNow AI Rate Limits](https://apis.io/rate-limits/popnow-ai/popnow-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://popnow.ai/)
+- [Documentation](https://popnow.ai/docs)
+- [Getting started](https://popnow.ai/docs/quickstart)
+- [API reference](https://popnow.ai/llms.txt)
+- [Pricing](https://popnow.ai/pricing)
+- [Changelog](https://popnow.ai/changelog)
+- [Blog](https://popnow.ai/blog)
+- [Terms of service](https://popnow.ai/terms)
+- [Privacy policy](https://popnow.ai/privacy)
+- [GitHub](https://github.com/popnow-ai)
+
+## API Evangelist rating
+
+**Kin Score 60.4** — strong · rubric 0.28.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 67.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 51.9 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 48.5 |
+
+**Agent readiness 56.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/popnow-ai/](https://apis.io/providers/popnow-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PopNow AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/popnow-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
